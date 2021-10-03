@@ -15,6 +15,9 @@ int gcf(int a, int b) {
     return gcf(b, a % b);
   }
 }
+int lcm(int a, int b) {
+  return a * b / gcf(a, b);
+}
 int main() {
   printf("euler1(1000)=%d\n", euler1(1000));
   printf("%d\n", gcf(15, 40));
