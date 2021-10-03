@@ -35,6 +35,9 @@ int sum_of_squares(int n) {
   }
   return sum;
 }
+int square(int n) {
+  return n * n;
+}
 int main() {
   printf("euler1(1000)=%d\n", euler1(1000));
   printf("euler5(20)=%d\n", euler5(20));
